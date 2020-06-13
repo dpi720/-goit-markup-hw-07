@@ -179,7 +179,7 @@
       </section>
     </main>
     <!-- подвал    -->
-    <footer>
+     <footer>
       <div class="fotter-main container">
         <address class="fotter-addres">
           <a href="./index.html" class="fotter-logo">
@@ -233,8 +233,25 @@
             </li>
           </ul>
         </div>
-        <p class="join">Подпишитесь на рассылку</p>
+        <div class="join-form">
+          <b class="join">Подпишитесь на рассылку</b>
+          <form action="#">
+            <input
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              class="form-input"
+            />
+            <button type="submit" class="submit-botton">
+              Подписаться
+              <svg class="icon-send" width="24" height="24">
+                <use href="./img/sprite.svg#footerfly"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
+      <p class="copi container">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
