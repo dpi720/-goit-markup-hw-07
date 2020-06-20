@@ -28,10 +28,10 @@
   fill: $grey-color;
   margin-right: 10px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-link:hover,
-.social-link:focus {
-  fill: $white-color;
-  background: $blue-text-color;
-  border-radius: 50%;
+  &:hover,
+  &:focus {
+    fill: $white-color;
+    background: $blue-text-color;
+    border-radius: 50%;
+  }
 }
