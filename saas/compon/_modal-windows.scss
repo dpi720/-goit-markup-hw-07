@@ -1,7 +1,6 @@
 .backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
-  pointer-events: none;
 }
 .backdrop {
   position: fixed;
@@ -169,7 +168,7 @@
   background-size: cover;
 
   border-radius: 2px;
-  border-color: blue-text-color;
+  border-color: $blue-text-color;
 }
 .icon-checkbox {
   display: inline-block;

@@ -678,7 +678,6 @@ footer {
 .backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
-  pointer-events: none;
 }
 
 .backdrop {
@@ -872,7 +871,7 @@ footer {
   background-image: url(../img/check.svg);
   background-size: cover;
   border-radius: 2px;
-  border-color: blue-text-color;
+  border-color: #2196f3;
 }
 
 .icon-checkbox {
